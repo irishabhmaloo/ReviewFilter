@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="main-image">
+                    <img src="/img/apple.png" id="imagebox">
+                </div>
+            </div>
+            <div class="content">
+                <h2>Apple Iphone 12 (Blue, 64 GB)</h2>
+                <div class="review">
+                    <span>(4.0)</span>
+                    <span class="fa fa-star"></span>
+                </div>
+
+                <div class="rating">
+
+                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+                </div>
+
+                <div class="price-box">
+                    <p class="price">&#8377; 77,900 </p>
+                    <strike>&#8377; 84,990</strike>
+                </div>
+                <button>
+                    <span class="fa fa-shopping-cart"></span>
+                    Add to cart
+                </button>
+                <button class="buy">
+                    <span class="fa fa-shopping-cart"></span>
+                    Buy now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="desc">
+        <h3>About the product</h3>
+        <p>Beyond adding 5G, Apple has equipped the iPhone 12 family with its powerful new A14 Bionic processor, a Super Retina XDR display, a more durable Ceramic Shield front cover, and a MagSafe feature for more reliable wireless charging, and support for attachable accessories.</p>
+    </div>
+
+    <section class="wrt-rev">
+        <div class="dis-head">
+            <h1>Rate this product</h1>
+            <p>Tell others what you think</p>
+        </div>
+
+        <div class="wrt-main">
+            <div class="rating">
+
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+    
+            </div>
+    
+            <div class="wrt-cont">
+                <textarea class="wrt-area" id="wrt-area"></textarea>
+            </div>
+
+            <button id="check-rev">
+                <span class="fa fa-shopping-cart"></span>
+                Add review
+            </button>          
+        </div>
+    </section>
+
+    <br>
+    <section class="display-rev">
+        <div class="dis-head">
+            <h1>Customer ratings and reviews</h1>
+        </div>
+
+        <div class="dis-options">
+            <button class="dis-button" type="submit" id="sort-date-new">
+                Newest first
+            </button>
+
+            <button class="dis-button" type="submit" id="sort-date-old">
+                Oldest first
+            </button>
+
+            <button class="dis-button" type="submit" id="sort-date-rat">
+                Sort by ratings
+            </button>
+
+            <form class="d-flex flexc" role="search" id="search-form">
+                <input class="form-control me-2" type="search" placeholder="Search tags" id="form-in" >
+                <button class="dis-button" type="button" id="search-button">Search</button>
+            </form>
+        </div>
+
+        <div class="rev-content">
+            <div class="cont" id="cont-id">
+                <div class="cont-top">
+                    <div class="profile">
+                        <div class="prf-img">
+                            <img src="/img/img1.jpg" alt="">
+                        </div>
+                        <div class="prf-name">
+                            <strong>Rishabh Maloo</strong>
+                            <p id="prf-date">12 July 2020</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p id="cmt-text">OMG what a Product, Video quality is great, looks perfect!! Guys you dont want to miss this one, trust me</p>
+                </div>
+            </div>
+
+            <div class="cont" id="cont-id">
+                <div class="cont-top">
+                    <div class="profile">
+                        <div class="prf-img">
+                            <img src="/img/img2.jpg" alt="">
+                        </div>
+                        <div class="prf-name">
+                            <strong>Joseph Wittek</strong>
+                            <p id="prf-date">19 Sept 2020</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>The battery life is average, needs improvement</p>
+                </div>
+            </div>
+
+            <div class="cont" id="cont-id">
+                <div class="cont-top">
+                    <div class="profile">
+                        <div class="prf-img">
+                            <img src="/img/img3.jpg" alt="">
+                        </div>
+                        <div class="prf-name">
+                            <strong>Noopur Modi</strong>
+                            <p id="prf-date">21 Oct 2021</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Battery drains too fast, but camera is the best part i must say</p>
+                </div>
+            </div>
+
+            <div class="cont" id="cont-id">
+                <div class="cont-top">
+                    <div class="profile">
+                        <div class="prf-img">
+                            <img src="/img/img4.jpg" alt="">
+                        </div>
+                        <div class="prf-name">
+                            <strong>Taylor Swift</strong>
+                            <p id="prf-date">13 Dec 2019</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                        <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                        <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                        <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <p>Shiny toys with a price, I'm not buying .... again, but im waiting for iphone 13 !!!!!!!!!!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script>
+        function clickimg(smallImg) {
+            var fullImg = document.getElementById("imagebox")
+            fullImg.src = smallImg.src
+        }
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
